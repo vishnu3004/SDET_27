@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Test-2(failed)">
+    <classes>
+      <class name="com.crm.AutoDeskContacts.AutoDeskSearchContact">
+        <methods>
+          <include name="createontactTest"/>
+          <include name="logOut"/>
+          <include name="closeDBConnection"/>
+          <include name="launchBrowser"/>
+          <include name="commonData"/>
+          <include name="dbConnect"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.crm.AutoDeskContacts.AutoDeskSearchContact -->
+    </classes>
+  </test> <!-- Test-2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
