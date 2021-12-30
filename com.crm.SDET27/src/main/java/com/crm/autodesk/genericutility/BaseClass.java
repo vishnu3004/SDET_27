@@ -87,6 +87,10 @@ public class BaseClass {
 		 dLib.closeToDB();
 		 System.out.println("DB connection close successfully");
 	 }
+	 public void demo2()
+	 {
+		 
+	 }
 	 
 	}
 
