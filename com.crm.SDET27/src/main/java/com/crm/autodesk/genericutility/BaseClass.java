@@ -26,7 +26,7 @@ public class BaseClass {
 	
 	
 	
-	public void demo3()
+	public void demo4()
 	{
 		
 	}
