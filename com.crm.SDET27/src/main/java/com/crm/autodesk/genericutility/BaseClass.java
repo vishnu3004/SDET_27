@@ -24,6 +24,12 @@ public class BaseClass {
 	public WebDriverUtility wLib = new WebDriverUtility();
 	public static WebDriver sdriver;
 	
+	
+	
+	public void demo3()
+	{
+		
+	}
 	@BeforeSuite(groups = {"smokeSuite","regressionSuite"})
 	public void dbConnect()
 	{
